@@ -9,9 +9,9 @@ Some metrics and models have been renamed, as the content of the manuscript has 
 
 
 ### Data
-- _SO_expave15m.dat_ contains the 5-minute source data for electron and proton integral flux (citation needed). Running the _data_preprocess.py_ script converts this data into the file _data.csv_, which is used by many scripts in this repository.
+- _SO_expave15m.dat_ contains the 5-minute source data for electron and proton integral flux (http://www2.physik.uni-kiel.de/SOHO/phpeph/EPHIN.htm). This file needs to be unzipped before being used. Running the _data_preprocess.py_ script converts this data into the file _data.csv_, which is used by many scripts in this repository.
 - _p10f10event.dat_ contains the list of SEP events. Running _event_analysis.py_ converts this data into _event_indices.py_ and _event_timestamps.py_, which are used by many scripts in this repository.
-- _xray_1995_2002_5m_filled.txt_ contains the 5-minute source data for x-ray intensity (citation needed). _data_interpolated_observed.csv_ contains the data from _data.csv_ combined with the xs and xl fields of the x-ray intensity data, with the timestamps interpolated to those of the x-ray data. _data_interpolated_derived.csv_ contains features derived from the source x-ray data, such as normalization, integral, and natural logarithm of x-ray intensity. The two .csv files are used by the scripts which take x-ray features as input.
+- _xray_1995_2002_5m_filled.txt_ contains the 5-minute source data for x-ray intensity (https://www.ngdc.noaa.gov/stp/satellite/goes/dataaccess.html). _data_interpolated_observed.csv_ contains the data from _data.csv_ combined with the xs and xl fields of the x-ray intensity data, with the timestamps interpolated to those of the x-ray data. _data_interpolated_derived.csv_ contains features derived from the source x-ray data, such as normalization, integral, and natural logarithm of x-ray intensity. The two .csv files are used by the scripts which take x-ray features as input. _data_interpolated_derived.csv_ needs to be unzipped before being used.
 
 
 ### Main Python scripts
