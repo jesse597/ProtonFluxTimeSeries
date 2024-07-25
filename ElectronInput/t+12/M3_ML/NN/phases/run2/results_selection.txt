@@ -1,0 +1,8 @@
+Rows are actual, columns are predicted
+Order is background, rising, falling
+[[81118 15449   290]
+ [   70  3231    62]
+ [   20   305 16957]]
+Rising precision =  0.170
+Rising recall =  0.961
+Rising F1 =  0.289

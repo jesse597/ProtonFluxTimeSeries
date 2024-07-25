@@ -1,0 +1,4 @@
+Average MAE = 0.677 (+/- 0.024)
+Average O2P lag = 8.922 (+/- 0.567)
+Average O2T lag = 6.578 (+/- 0.568)
+Average ln10 lag = -16.133 (+/- 2.823)
